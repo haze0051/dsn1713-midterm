@@ -3,8 +3,28 @@
 /* Set custom variables here */
 
 :root {
-  --bg-primary: #1a502f;
+  --bs-body-bg: #F6F3ED;
+  --bs-primary: #2e483a;
+  --bs-light: #f6f3ed; 
+  --bs-primary-rgb: 46, 72, 58;
+  --light-color: #f6f3ed;
+  --body-bg: #f6f3ed;
+  --text-color: #333;
 }
+
+.navbar {
+background-color: var(--bs-primary);
+}
+
+.btn-primary{
+  background-color: var(--bs-primary);
+}
+
+ul{
+  list-style: none;
+}
+
+
 
 
 
@@ -23,7 +43,7 @@ h1, h2, h3 {
 #hero {
   height: 800px;
   background-color: #E4E6DB;
-  background-image: url(...images/hero-bg-img.png);
+  background-image: url(../images/hero-bg-img.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
